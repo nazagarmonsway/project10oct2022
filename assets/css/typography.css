@@ -1,22 +1,72 @@
-h1{
-    color: #f0f8ff;
-    font-size: 3em;
+h1 {
+  color: #f0f8ff;
+  font-size: 3em;
+  margin: 0;
 }
 
-.content a{
+.home h1{
     color: #f0f8ff;
-    text-decoration: none;text-transform: capitalize;
-    border: 2px solid;
-    font-size: 2em;
-    padding: 5px 10px;
-    transition-property: background-color,border-color,color;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-in-out;
+    margin-bottom: 20px;
 }
 
-.content a:hover{
-    background-color: rgb(242, 235, 235);
-    border-color: #f33;
-    color: #f33;
-    
+
+.about h1, .contact h1{
+color: black;
+text-align: center;position: relative;
+top: 150px;
+/* to fix */
+
+}
+
+
+.content a {
+  color: #f0f8ff;
+  text-decoration: none;
+  text-transform: capitalize;
+  border: 2px solid;
+  font-size: 2em;
+  padding: 5px 10px;
+  transition-property: background-color, border-color, color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.content a:hover {
+  background-color: rgb(242, 235, 235);
+  border-color: #f33;
+  color: #f33;
+}
+
+.home nav.navigation a {
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin: 0 20px;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  display: inline-block;
+}
+
+.about nav.navigation a,
+.contact nav.navigation a{
+color: black;
+text-decoration: none;
+  text-transform: capitalize;
+  margin: 0 20px;
+}
+
+nav.navigation a:hover {
+  color: red;
+  animation-name: flash;
+}
+@keyframes flash {
+  from {
+    color: white;
+    scale: 1;
+  }
+  to {
+    color: black;
+    scale: 1.3;
+  }
 }

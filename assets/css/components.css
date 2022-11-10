@@ -20,10 +20,18 @@
 header{
   position: absolute;
   z-index: 1;
-  border: 3px solid white;
+  /* border: 3px solid white; */
   width: 100%;
 }
 
 nav.navigation {
-  
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
 }
+
+.about .navigation,
+.contact .navigation{
+  background-color: grey;
+}
+
