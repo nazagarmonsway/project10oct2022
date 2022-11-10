@@ -35,3 +35,10 @@ nav.navigation {
   background-color: grey;
 }
 
+.gallery{
+  list-style-type: none;
+}
+
+.fruits li{
+  list-style-type:none;
+}
