@@ -1,0 +1,22 @@
+h1{
+    color: #f0f8ff;
+    font-size: 3em;
+}
+
+.content a{
+    color: #f0f8ff;
+    text-decoration: none;text-transform: capitalize;
+    border: 2px solid;
+    font-size: 2em;
+    padding: 5px 10px;
+    transition-property: background-color,border-color,color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+.content a:hover{
+    background-color: rgb(242, 235, 235);
+    border-color: #f33;
+    color: #f33;
+    
+}

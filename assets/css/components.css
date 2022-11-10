@@ -1,0 +1,29 @@
+.background {
+  height: 100%;
+  /* background: layer1, layer2; */
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(64, 88, 152, 0.5)) ,url("https://picsum.photos/id/1065/2550/1440");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.content{
+  position: absolute;
+  text-align: center;
+ 
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+header{
+  position: absolute;
+  z-index: 1;
+  border: 3px solid white;
+  width: 100%;
+}
+
+nav.navigation {
+  
+}
